@@ -5,7 +5,7 @@
     <div class="navbar-inner">
       <div class="container-fluid">
         <figure id="logo" data-hook>
-          <%= link_to image_tag(Spree::Config[:logo],  :alt => "Logo", :id => "logo"), root_url, :class =>'brand' %>
+          <%= link_to Spree::Config[:name], root_url, :class =>'brand' %>
         </figure>
 
         <ul id="nav-bar" class="nav" data-hook>
